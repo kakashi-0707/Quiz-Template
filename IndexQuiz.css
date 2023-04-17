@@ -1,0 +1,89 @@
+html{
+    font-size: xx-large;
+    font-weight: bold;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;  
+}
+.heading{
+    background-color: rgb(233, 192, 11);
+    padding: 50px;
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 65px;
+}
+.heading:hover{
+    color: rgb(102, 68, 133);
+}
+#question{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.container {
+    height: 265px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+    background-color: rgb(233, 192, 11); 
+}
+.result{
+    padding: 10px;
+    color: black;
+    height: 10vh;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(102, 68, 133);
+
+}
+.option{
+    width: 800px;
+    height: max-content;
+    border-radius: 20px;;
+    border-color:black;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+.option:hover{
+    text-transform: uppercase;
+}
+.navigation{
+    height: 155px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+    background-color: black; 
+}
+.evaluate
+{
+    width: 800px;
+    padding: 10px;
+    margin: 100px;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+}
+.next
+{
+    width: 800px;
+    padding: 10px;
+    margin: 100px;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+}
+.evaluate:hover{
+    background-color: green;
+}
+.next:hover{
+    background-color: red;
+}
